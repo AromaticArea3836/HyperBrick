@@ -343,7 +343,7 @@ credits() {
     ui_print ""
     ui_print "- Thanks for Evo Mods for custom control center."
     ui_print ""
-    ui_print "- Check out my GitHub: https://github.com/AromaticArea3836"
+    ui_print "- Check out my GitHub: https://github.com/xnggypr"
     ui_print ""
     ui_print "- Ping me in my Telegram, if any problems: https://t.me/xnggypr"
     ui_print ""
