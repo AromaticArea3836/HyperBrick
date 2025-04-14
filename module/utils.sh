@@ -8,7 +8,7 @@ verify_compability() {
     android_ver=$(getprop ro.build.version.release)
     ui_print "- Android version check... Current android version: Android $android_ver"
     if [ "$android_ver" -lt 15 ]; then
-       abort "- ❌ Your Android version is not supported(Android $android_ver). Please, update to android 15 to use this module."
+       abort "- ❌ Your Android version is not supported(Android $android_ver). Please, update to android 15 to use this module version."
     else
        ui_print "- ✅ Congrats! Your Android $android_ver is supported!"
     fi
