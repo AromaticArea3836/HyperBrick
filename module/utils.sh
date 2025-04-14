@@ -3,9 +3,6 @@ ui_print ""
 ui_print "- HyperBrick: feel greatness of your animations on low-end device on HyperOS 2."
 ui_print ""
 
-# System information
-Language=$(settings get system system_locales)
-
 # Verify compability with this module: check android version
 verify_compability() {
     android_ver=$(getprop ro.build.version.release)
